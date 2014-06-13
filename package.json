@@ -1,0 +1,43 @@
+{
+  "name": "iwillwen-node-qiniu-JSB",
+  "version": "6.1.5",
+  "description": "This was clonec from Qiniu Resource Storage SDK for Node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwillwen/node-qiniu.git"
+  },
+  "keywords": [
+    "cloud",
+    "storage",
+    "s3",
+    "qiniu",
+    "web-service"
+  ],
+  "author": "iwillwen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwillwen/node-qiniu/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "request": "~2.27.0",
+    "q": "~0.9.6",
+    "dataStream": "0.0.5"
+  },
+  "devDependencies": {
+    "async": "~0.2.9",
+    "mocha": "~1.6.0",
+    "should": "~1.2.2",
+    "doxmate": "*",
+    "blanket": "*",
+    "travis-cov": "*"
+  },
+  "homepage": "https://github.com/iwillwen/node-qiniu"
+}
